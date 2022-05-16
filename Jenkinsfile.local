@@ -4,7 +4,7 @@ library identifier: 'mylibraryname@master',
     retriever: modernSCM([
       $class: 'GitSCMSource',
       //credentialsId: 'your-credentials-id', // remove this if it's public!
-      remote: 'https://github.com/codeboz/global-shared-library-proj'
+      remote: 'https://github.com/tutorialworks/pipeline-library-demo.git'
 ])
 
 pipeline {
